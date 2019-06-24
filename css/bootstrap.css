@@ -1,0 +1,78 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  right: 50;
+  bottom: 0;
+  width: 100%;
+  height:200 ;
+  background-color: rgb(85, 47, 255);
+  color: blue;
+  text-align: center;
+  height:55px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want
+.fa:hover {
+  opacity: 0.7;
+} */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook , .fa-linkedin, .fa-instagram, .fa-twitter{
+ /* background: #3B5998; */
+  color: white;
+}
+#searchInput
+{
+  width: 200px;
+}
+body{
+  font-family: 'Merriweather', serif;
+  }
+  background
+{
+  background: #555;
+}
+
+
